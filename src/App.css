@@ -5,24 +5,6 @@
   text-align: center;
 }
 
-.container {
-  display: flex;
-  width: 450px;
-  height: 250px;
-  padding: 1.5em;
-
-}
-
-.conten {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 20px;
-}
-
-.photo { 
-  width: 200px;
-  height: 300px;
-}
 
 
 @keyframes container {
@@ -38,14 +20,6 @@
   a:nth-of-type(2) .logo {
     animation: contanier infinite 20s linear;
   }
-}
-
-.ikon {
-  display: flex;
-  margin-left: 950px;
-  width: 65px;
-  height: 40px;
-  padding: 2em;
 }
 
 .sepetekle{
@@ -93,4 +67,102 @@
   height: 23px;
   margin-left: 550px;
     
+}
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contanier {
+  text-align: center;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.conten {
+  background-color: #f0f0f0;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 80px;
+}
+
+.basket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f7f7f7;
+  margin-top: 100px;
+}
+.basketItems {
+  display: flex;
+  flex-wrap: wrap; /* Yan yana sıralanan öğeleri alt satıra geçir (gerektiğinde) */
+}
+
+.basketItem {
+  margin: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+.basketTotal {
+  font-weight: bold;
+}
+
+.basketItemInfo .removeItemButton {
+  background-color: #f0f0f0;
+  display: flex;
+  margin-left: 100px;
+}
+.quantityBtnTotal {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.quantityBtn {
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  
+}
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+ .conten {
+  padding: 35px;
+
+  }
+  .basket {
+    padding: 0px;
+  }
+  .photo {
+    display: block;
+  }
 }
