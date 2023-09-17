@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './App.css';
 import Basket from './Basket';
 import Product from './Product';
@@ -46,18 +46,17 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="contanier">
 
-      <div className="main">
+      <div className="conten">
         <h2>Ürünler</h2>
-        <div className="productList">
+        <div className="photo">
           {products.map((product) => (
             <Product
               key={product.id}
               product={product}
               addToBasket={addToBasket}
-              updateProductStock={updateProductStock}
-            />
+              updateProductStock={updateProductStock}/>
           ))}
         </div>
         <Basket basket={basket} updateBasket={setBasket} products={products} setProducts={setProducts} />
