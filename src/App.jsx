@@ -67,7 +67,7 @@ function App() {
   return (
     <>
     <div className='container'>
-      <h2>Ürünler</h2>
+      <h1>Ürünler</h1>
       <div className="cardWrapper">
         {
           productsObject.map((item) => <Cards key={item.id} products={item} addToBasket={addToBasket} />)
