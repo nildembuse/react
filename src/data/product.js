@@ -1,0 +1,66 @@
+export const products = [
+    {
+        id: 1,
+        title: "Beyaz Crealive Sweatshirt",
+        price: 189,
+        img: "/src/img/based.jpg",
+        stock: 50,
+    },
+    {
+        id: 2,
+        title: "Beyaz Kadın Worst Sweatshirt",
+        price: 239,
+        img: "/src/img/batik.jpg",
+        stock: 104,
+    },
+    {
+        id: 3,
+        title: "Gri Beyaz Batik Sweatshirt",
+        price: 200,
+        img: "/src/img/beyaz.jpg",
+        stock: 40,
+    },
+    {
+        id: 4,
+        title: "Gap Su Yeşili Kadın Sweatshirt",
+        price: 549,
+        img: "/src/img/gap.jpg",
+        stock: 30,
+    },
+    {
+        id: 5,
+        title: "Mavi Erkek Sweatshirt",
+        price: 269,
+        img: "/src/img/maci.jpg",
+        stock: 10,
+    },
+    {
+        id: 6,
+        title: "Mavi Kadın Sweatshirt",
+        price: 260,
+        img: "/src/img/mavi.jpg",
+        stock: 30,
+    },
+    {
+        id: 7,
+        title: "Mint Erkek Sweatshirt",
+        price: 199,
+        img: "/src/img/mint.jpg",
+        stock: 84,
+    },
+    {
+        id: 8,
+        title: "Stockholm Sweatshirt",
+        price: 299,
+        img: "/src/img/stock.jpg",
+        stock: 60,
+    },
+    {
+        id: 9,
+        title: "Wrtsbhvr Sweatshirt",
+        price: 200,
+        img: "/src/img/sweat.jpg",
+        stock: 90,
+    },
+];
+
