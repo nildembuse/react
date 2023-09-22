@@ -193,3 +193,13 @@ li {
     display: flex;
     justify-content: center;
  }
+ .icons{
+    list-style-type:none;
+ }
+ .icons img {
+    width: 30px;
+    height: 23px;
+    margin-left: 550px;
+      
+  }
+  

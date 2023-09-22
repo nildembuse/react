@@ -4,6 +4,8 @@ import './App.css'
 import Cards from "./components/Cards"
 import Basket from "./components/Basket"
 import OrderSummary from "./components/OrderSummary"
+import { Switch } from 'antd'
+
 
 function App() {
   const [card, setCard] = useState([])
@@ -43,6 +45,7 @@ function App() {
     });
   }
 
+
   function addToBasket(item) {
     if(item.stock < 1){
       return;
@@ -63,10 +66,16 @@ function App() {
     setCard(updatedCard);
   }
 
+  const onChange = (checked) => {
+    console.log(`switch to ${checked}`);
+  };
+  const App = () => <Switch defaultChecked onChange={onChange} />;
 
   return (
     <>
+     
     <div className='container'>
+    <Switch defaultChecked onChange={onChange} />;
       <h1>Ürünler</h1>
       <div className="cardWrapper">
         {

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Cards({products, addToBasket}) {
     const {id,title,price,img,stock} = products;
 

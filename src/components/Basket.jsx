@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 
+
 export default function Basket({item, removeProduct, handlePlus, handleMinus}) {
   const [amount, setAmount] = useState(1);
 
