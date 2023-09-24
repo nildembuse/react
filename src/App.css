@@ -209,6 +209,10 @@ li {
 .uyegir{
     display: flex;
     margin-left: 1150px;
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 4px 2px;
 }
 .uyegir:hover{
     background-color: white; 
