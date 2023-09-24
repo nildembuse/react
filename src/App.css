@@ -202,4 +202,16 @@ li {
     margin-left: 550px;
       
   }
-  
+.urun-ekleme{
+    display: flex;
+    margin-left: 1250px;
+}  
+.uyegir{
+    display: flex;
+    margin-left: 1150px;
+}
+.uyegir:hover{
+    background-color: white; 
+    color: black;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.24), 0 7px 5px 0 rgba(0,0,0,0.19);
+  }

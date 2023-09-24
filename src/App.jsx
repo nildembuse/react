@@ -7,6 +7,7 @@ import OrderSummary from "./components/OrderSummary"
 import { Switch } from 'antd'
 
 
+
 function App() {
   const [card, setCard] = useState([])
 
@@ -75,7 +76,8 @@ function App() {
     <>
      
     <div className='container'>
-    <Switch defaultChecked onChange={onChange} />;
+      <button className="uyegir">Üye Girişi</button>
+    <Switch defaultChecked onChange={onChange} className="urun-ekleme" />
       <h1>Ürünler</h1>
       <div className="cardWrapper">
         {
